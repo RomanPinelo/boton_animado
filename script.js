@@ -63,6 +63,30 @@ var bar11111111111 = document.getElementById("bar11111111111");
 var bar22222222222 = document.getElementById("bar22222222222");
 var bar33333333333 = document.getElementById("bar33333333333");
 
+// Botón 13
+var menuButton11 = document.getElementById("buttonMenu11");
+var bar111111111111 = document.getElementById("bar111111111111");
+var bar222222222222 = document.getElementById("bar222222222222");
+var bar333333333333 = document.getElementById("bar333333333333");
+
+// Botón 14
+var menuButton12 = document.getElementById("buttonMenu12");
+var bar1111111111111 = document.getElementById("bar1111111111111");
+var bar2222222222222 = document.getElementById("bar2222222222222");
+var bar3333333333333 = document.getElementById("bar3333333333333");
+
+// Botón 15
+var menuButton13 = document.getElementById("buttonMenu13");
+var bar11111111111111 = document.getElementById("bar11111111111111");
+var bar22222222222222 = document.getElementById("bar22222222222222");
+var bar33333333333333 = document.getElementById("bar33333333333333");
+
+// Botón 16
+var menuButton14 = document.getElementById("buttonMenu14");
+var bar111111111111111 = document.getElementById("bar111111111111111");
+var bar222222222222222 = document.getElementById("bar222222222222222");
+var bar333333333333333 = document.getElementById("bar333333333333333");
+
 // Eventos de cada botón
 menuButton.addEventListener('click', () => {
   bar1.classList.toggle("active1");
@@ -124,4 +148,28 @@ menuButton10.addEventListener('click', () => {
   bar11111111111.classList.toggle("active11111111111");
   bar22222222222.classList.toggle("active22222222222");
   bar33333333333.classList.toggle("active33333333333");
+});
+
+menuButton11.addEventListener('click', () => {
+  bar111111111111.classList.toggle("active111111111111");
+  bar222222222222.classList.toggle("active222222222222");
+  bar333333333333.classList.toggle("active333333333333");
+});
+
+menuButton12.addEventListener('click', () => {
+  bar1111111111111.classList.toggle("active1111111111111");
+  bar2222222222222.classList.toggle("active2222222222222");
+  bar3333333333333.classList.toggle("active3333333333333");
+});
+
+menuButton13.addEventListener('click', () => {
+  bar11111111111111.classList.toggle("active11111111111111");
+  bar22222222222222.classList.toggle("active22222222222222");
+  bar33333333333333.classList.toggle("active33333333333333");
+});
+
+menuButton14.addEventListener('click', () => {
+  bar111111111111111.classList.toggle("active111111111111111");
+  bar222222222222222.classList.toggle("active222222222222222");
+  bar333333333333333.classList.toggle("active333333333333333");
 });

@@ -15,6 +15,7 @@ body {
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
+  overflow: scroll;
 }
 
 .button {
@@ -24,6 +25,7 @@ body {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  margin: 1rem;
 }
 
 .button_bar {
@@ -36,15 +38,24 @@ body {
   transition: 0.4s;
 }
 
-.Bar1, .Bar11, .Bar111, .Bar1111, .Bar11111, .Bar111111, .Bar1111111, .Bar11111111, .Bar111111111, .Bar1111111111, .Bar11111111111 {
+.Bar1, .Bar11, .Bar111, .Bar1111, .Bar11111, .Bar111111,
+.Bar1111111, .Bar11111111, .Bar111111111, .Bar1111111111,
+.Bar11111111111, .Bar111111111111, .Bar1111111111111,
+.Bar11111111111111, .Bar111111111111111 {
   top: 17.5%;
 }
 
-.Bar2, .Bar22, .Bar222, .Bar2222, .Bar22222, .Bar222222, .Bar2222222, .Bar22222222, .Bar222222222, .Bar2222222222, .Bar22222222222 {
+.Bar2, .Bar22, .Bar222, .Bar2222, .Bar22222, .Bar222222,
+.Bar2222222, .Bar22222222, .Bar222222222, .Bar2222222222,
+.Bar22222222222, .Bar222222222222, .Bar2222222222222,
+.Bar22222222222222, .Bar222222222222222 {
   top: 45%;
 }
 
-.Bar3, .Bar33, .Bar333, .Bar3333, .Bar33333, .Bar333333, .Bar3333333, .Bar33333333, .Bar333333333, .Bar3333333333, .Bar33333333333 {
+.Bar3, .Bar33, .Bar333, .Bar3333, .Bar33333, .Bar333333,
+.Bar3333333, .Bar33333333, .Bar333333333, .Bar3333333333,
+.Bar33333333333, .Bar333333333333, .Bar3333333333333,
+.Bar33333333333333, .Bar333333333333333 {
   top: 72.5%;
 }
 
@@ -146,6 +157,7 @@ body {
   position: relative;
   cursor: pointer;
   transform: scale(1.2);
+  margin: 1rem;
 }
 
 .lbl-menu #spn1,#spn2,#spn3{
@@ -264,4 +276,167 @@ body {
   width: 50%;
   background-color: #0ff;
   transform: rotate(-585deg);
+}
+
+/* Botón 13 */
+.Bar111111111111.active111111111111 {
+  top: 30%;
+  left: 45%;
+  width: 50%;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(585deg);
+}
+
+.Bar222222222222.active222222222222 {
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.Bar333333333333.active333333333333 {
+  top: 60%;
+  left: 45%;
+  width: 50%;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(-585deg);
+}
+
+/* Botón 14 */
+.Bar1111111111111.active1111111111111 {
+  top: 30%;
+  left: 45%;
+  width: 50%;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(585deg);
+  animation: animate 1s infinite;
+}
+
+.Bar2222222222222.active2222222222222 {
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  animation: animate 1s infinite;
+}
+
+.Bar3333333333333.active3333333333333 {
+  top: 60%;
+  left: 45%;
+  width: 50%;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(-585deg);
+  animation: animate 1s infinite;
+}
+
+@keyframes animate {
+  0%{
+    box-shadow: 0 0 50px #2196f3, inset 0 0 50px #2196f3;
+    filter: hue-rotate(0deg);
+  }
+  
+  20%{
+    box-shadow: 0 0 60px #2196f3, inset 0 0 60px #2196f3;
+  }
+  
+  40%{
+    box-shadow: 0 0 40px #2196f3, inset 0 0 40px #2196f3;
+  }
+  
+  60%{
+    box-shadow: 0 0 80px #2196f3, inset 0 0 80px #2196f3;
+  }
+  
+  80%{
+    box-shadow: 0 0 100px #2196f3, inset 0 0 100px #2196f3;
+  }
+  
+  100%{
+    box-shadow: 0 0 50px #2196f3, inset 0 0 50px #2196f3;
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* 
+  Para la flechas de arriba y abajo, se pueden cambiar los
+  valores de los grados por 45deg, 225deg, 405deg o 585deg
+  dependiendo de como quieras la animación
+*/
+/* Botón 15 */
+.Bar11111111111111.active11111111111111 {
+  top: 65%;
+  width: 50%;
+  background-color: #0ff;
+  box-shadow: 0 0 10px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+  transform: rotate(585deg);
+}
+
+.Bar22222222222222.active22222222222222 {
+  background-color: #0ff;
+  box-shadow: 0 0 10px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+  transform: rotate(90deg);
+}
+
+.Bar33333333333333.active33333333333333 {
+  top: 65%;
+  left: 40%;
+  width: 50%;
+  background-color: #0ff;
+  box-shadow: 0 0 10px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+  transform: rotate(-585deg);
+}
+
+/* Botón 16 */
+.Bar111111111111111.active111111111111111 {
+  top: 25%;
+  width: 50%;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(-585deg);
+  animation: animate1 1s infinite;
+}
+
+.Bar222222222222222.active222222222222222 {
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(90deg);
+  animation: animate1 1s infinite;
+}
+
+.Bar333333333333333.active333333333333333 {
+  top: 25%;
+  left: 40%;
+  width: 50%;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transform: rotate(585deg);
+  animation: animate1 1s infinite;
+}
+
+@keyframes animate1 {
+  0%{
+    box-shadow: 0 0 50px #2196f3, inset 0 0 50px #2196f3;
+    filter: hue-rotate(0deg);
+  }
+  
+  20%{
+    box-shadow: 0 0 60px #2196f3, inset 0 0 60px #2196f3;
+  }
+  
+  40%{
+    box-shadow: 0 0 40px #2196f3, inset 0 0 40px #2196f3;
+  }
+  
+  60%{
+    box-shadow: 0 0 80px #2196f3, inset 0 0 80px #2196f3;
+  }
+  
+  80%{
+    box-shadow: 0 0 100px #2196f3, inset 0 0 100px #2196f3;
+  }
+  
+  100%{
+    box-shadow: 0 0 50px #2196f3, inset 0 0 50px #2196f3;
+    filter: hue-rotate(360deg);
+  }
 }
