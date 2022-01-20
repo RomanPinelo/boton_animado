@@ -36,6 +36,33 @@ var bar333333 = document.getElementById("bar333333");
 
 //Botón 7 se hace con CSS
 
+// Flechas
+// Botón 8
+var menuButton6 = document.getElementById("buttonMenu6");
+var bar1111111 = document.getElementById("bar1111111");
+var bar3333333 = document.getElementById("bar3333333");
+
+// Botón 9
+var menuButton7 = document.getElementById("buttonMenu7");
+var bar11111111 = document.getElementById("bar11111111");
+var bar33333333 = document.getElementById("bar33333333");
+
+// Botón 10
+var menuButton8 = document.getElementById("buttonMenu8");
+var bar111111111 = document.getElementById("bar111111111");
+var bar333333333 = document.getElementById("bar333333333");
+
+// Botón 11
+var menuButton9 = document.getElementById("buttonMenu9");
+var bar1111111111 = document.getElementById("bar1111111111");
+var bar3333333333 = document.getElementById("bar3333333333");
+
+// Botón 12
+var menuButton10 = document.getElementById("buttonMenu10");
+var bar11111111111 = document.getElementById("bar11111111111");
+var bar22222222222 = document.getElementById("bar22222222222");
+var bar33333333333 = document.getElementById("bar33333333333");
+
 // Eventos de cada botón
 menuButton.addEventListener('click', () => {
   bar1.classList.toggle("active1");
@@ -71,4 +98,30 @@ menuButton5.addEventListener('click', () => {
   bar111111.classList.toggle("active111111");
   bar222222.classList.toggle("active222222");
   bar333333.classList.toggle("active333333");
+});
+
+menuButton6.addEventListener('click', () => {
+  bar1111111.classList.toggle("active1111111");
+  bar3333333.classList.toggle("active3333333");
+});
+
+menuButton7.addEventListener('click', () => {
+  bar11111111.classList.toggle("active11111111");
+  bar33333333.classList.toggle("active33333333");
+});
+
+menuButton8.addEventListener('click', () => {
+  bar111111111.classList.toggle("active111111111");
+  bar333333333.classList.toggle("active333333333");
+});
+
+menuButton9.addEventListener('click', () => {
+  bar1111111111.classList.toggle("active1111111111");
+  bar3333333333.classList.toggle("active3333333333");
+});
+
+menuButton10.addEventListener('click', () => {
+  bar11111111111.classList.toggle("active11111111111");
+  bar22222222222.classList.toggle("active22222222222");
+  bar33333333333.classList.toggle("active33333333333");
 });

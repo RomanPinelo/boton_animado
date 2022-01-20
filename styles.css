@@ -5,14 +5,14 @@
 }
 
 body {
-  /* background-color: #000; */
   background-image: url("https://image.freepik.com/vector-gratis/fondo-degradado-colores_53876-93208.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   color: #fff;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   height: 100vh;
 }
@@ -32,21 +32,23 @@ body {
   width: 80%;
   height: 10%;
   left: 10%;
+  border-radius: 9999px;
   transition: 0.4s;
 }
 
-.Bar1, .Bar11, .Bar111, .Bar1111, .Bar11111, .Bar111111 {
+.Bar1, .Bar11, .Bar111, .Bar1111, .Bar11111, .Bar111111, .Bar1111111, .Bar11111111, .Bar111111111, .Bar1111111111, .Bar11111111111 {
   top: 17.5%;
 }
 
-.Bar2, .Bar22, .Bar222, .Bar2222, .Bar22222, .Bar222222 {
+.Bar2, .Bar22, .Bar222, .Bar2222, .Bar22222, .Bar222222, .Bar2222222, .Bar22222222, .Bar222222222, .Bar2222222222, .Bar22222222222 {
   top: 45%;
 }
 
-.Bar3, .Bar33, .Bar333, .Bar3333, .Bar33333, .Bar333333 {
+.Bar3, .Bar33, .Bar333, .Bar3333, .Bar33333, .Bar333333, .Bar3333333, .Bar33333333, .Bar333333333, .Bar3333333333, .Bar33333333333 {
   top: 72.5%;
 }
 
+/* Menu hamburguesa */
 /* Botón 1 */
 .Bar1.active1 {
   top: 45%;
@@ -180,4 +182,86 @@ body {
 #btn-menu:checked ~ .lbl-menu #spn3{
   transform: rotate(-140deg);
   top: 10px;
+}
+
+/* Flechas */
+/* Botón 8 */
+.Bar1111111.active1111111 {
+  top: 30%;
+  left: 45%;
+  width: 50%;
+  transform: rotate(45deg);
+}
+
+.Bar3333333.active3333333 {
+  top: 60%;
+  left: 45%;
+  width: 50%;
+  transform: rotate(-45deg);
+}
+
+/* Botón 9 */
+.Bar11111111.active11111111 {
+  top: 30%;
+  left: 5%;
+  width: 50%;
+  transform: rotate(-45deg);
+}
+
+.Bar33333333.active33333333 {
+  top: 60%;
+  left: 5%;
+  width: 50%;
+  transform: rotate(45deg);
+}
+
+/* Botón 10 */
+.Bar111111111.active111111111 {
+  top: 30%;
+  left: 5%;
+  width: 50%;
+  transform: rotate(-225deg);
+}
+
+.Bar333333333.active333333333 {
+  top: 60%;
+  left: 5%;
+  width: 50%;
+  transform: rotate(225deg);
+}
+
+/* Botón 11 */
+.Bar1111111111.active1111111111 {
+  top: 30%;
+  left: 45%;
+  width: 50%;
+  transform: rotate(405deg);
+}
+
+.Bar3333333333.active3333333333 {
+  top: 60%;
+  left: 45%;
+  width: 50%;
+  transform: rotate(-405deg);
+}
+
+/* Botón 12 */
+.Bar11111111111.active11111111111 {
+  top: 30%;
+  left: 45%;
+  width: 50%;
+  background-color: #0ff;
+  transform: rotate(585deg);
+}
+
+.Bar22222222222.active22222222222 {
+  background-color: #0ff;
+}
+
+.Bar33333333333.active33333333333 {
+  top: 60%;
+  left: 45%;
+  width: 50%;
+  background-color: #0ff;
+  transform: rotate(-585deg);
 }
