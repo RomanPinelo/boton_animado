@@ -764,7 +764,7 @@ body {
   
   20%{
     top: 72.5%;
-    left: 75%;
+    left: 50%;
     transform: rotate(0);
   }
   
@@ -782,7 +782,7 @@ body {
   
   80%{
     top: 52.5%;
-    left: 50%;
+    left: 30%;
     transform: rotate(30deg);
   }
   
