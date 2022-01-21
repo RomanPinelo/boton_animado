@@ -93,6 +93,12 @@ var bar1111111111111111 = document.getElementById("bar1111111111111111");
 var bar2222222222222222 = document.getElementById("bar2222222222222222");
 var bar3333333333333333 = document.getElementById("bar3333333333333333");
 
+// Botón 18
+var menuButton16 = document.getElementById("buttonMenu16");
+var bar11111111111111111 = document.getElementById("bar11111111111111111");
+var bar22222222222222222 = document.getElementById("bar22222222222222222");
+var bar33333333333333333 = document.getElementById("bar33333333333333333");
+
 // Eventos de cada botón
 menuButton.addEventListener('click', () => {
   bar1.classList.toggle("active1");
@@ -193,5 +199,21 @@ menuButton15.addEventListener('click', () => {
     bar1111111111111111.classList.toggle("active11111111111111111");
     bar2222222222222222.classList.toggle("active22222222222222222");
     bar3333333333333333.classList.toggle("active33333333333333333");
+  }, 1000);
+});
+
+menuButton16.addEventListener('click', () => {
+  bar11111111111111111.classList.toggle("active1111111111111111111");
+  bar22222222222222222.classList.toggle("active2222222222222222222");
+  bar33333333333333333.classList.toggle("active3333333333333333333");
+
+  setTimeout(() => {
+    bar11111111111111111.classList.toggle("active1111111111111111111");
+    bar22222222222222222.classList.toggle("active2222222222222222222");
+    bar33333333333333333.classList.toggle("active3333333333333333333");
+
+    bar11111111111111111.classList.toggle("active11111111111111111111");
+    bar22222222222222222.classList.toggle("active22222222222222222222");
+    bar33333333333333333.classList.toggle("active33333333333333333333");
   }, 1000);
 });
